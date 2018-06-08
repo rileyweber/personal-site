@@ -1,0 +1,13 @@
+version: 0.0
+
+os: linux
+
+files:
+  - source: /
+    destination: /homu/ubuntu/rileypweber
+    
+hooks:
+  AfterInstall:
+    - location: /home/ubuntu/automation/personal-site-build.sh
+      timeout: 600
+      runas: ubuntu
