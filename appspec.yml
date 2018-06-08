@@ -8,6 +8,6 @@ files:
 
 hooks:
   AfterInstall:
-    - location: /home/ubuntu/automation/personal-site-build.sh
+    - location: install/build.sh
       timeout: 600
       runas: ubuntu
