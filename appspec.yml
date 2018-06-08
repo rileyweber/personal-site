@@ -4,8 +4,8 @@ os: linux
 
 files:
   - source: /
-    destination: /homu/ubuntu/rileypweber
-    
+    destination: /home/ubuntu/rileypweber
+
 hooks:
   AfterInstall:
     - location: /home/ubuntu/automation/personal-site-build.sh
