@@ -4,24 +4,50 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./assets/images/rileypweber-bg.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./assets/images/office.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 .body {
     padding: 20px;
 }
 .section {
-    display: inline-block;
-    background-color: rgba(0,0,0,0.5);
+    /* display: block; */
+    /* background-color: rgba(0,0,0,0.5); */
     padding: 10px 30px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     color: white;
 }
 .name {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 300;
+    letter-spacing: 1.5px;
 }
 .info {
     font-family: 'Robot', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+.rw-icon {
+    display: inline-block;
+    margin: 3px;
+    /* height: 50px; */
+    /* width: 50px; */
+    /* font-size: 15px; */
+    color: lightgray;
+    /* margin: 10px; */
+    /* border-radius: 25px; */
+    /* text-align: center; */
+    /* background-color: rgba(0,0,0,0.5); */
+    /* line-height: 55px; */
+}
+.rw-icon i{
+    font-size: 25px;
+}
+.connect-links {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
 }
